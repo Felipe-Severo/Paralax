@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Paralax</title>
+	<style type="text/css">
+		
+		/*Configuração padrão da página
+		*******************************/
+		body, html {
+			margin: 0;
+			font: 16px "Lato", sans-serif;
+			color: #777;
+			height: 100%;
+		}
+
+		.conteudo {
+			color: #777;
+			background-color: white;
+			text-align: justify;
+			padding: 50px 80px;
+		}
+
+		h3 {
+			text-transform: uppercase;
+			color: #111;
+			text-align: center;
+		}
+
+		p {
+			margin-bottom: 20px;
+		}
+
+		/*Efeito Paralax
+		*****************/
+		.caixa1, .caixa2, .caixa3, .caixa4 {
+			position: relative;
+			height: 100%;
+			opacity: 0.7;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+		}
+
+		.caixa1 {
+			background-image: url(imagens/imagem1.jpg);
+		}
+
+		.caixa2 {
+			background-image: url(imagens/imagem2.jpg);
+		}
+
+		.caixa3 {
+			background-image: url(imagens/imagem3.jpg);
+		}
+
+		.caixa4 {
+			background-image: url(imagens/imagem4.jpg);
+		}
+
+		.documento-titulo {
+			position: absolute;
+			left: 0;
+			top: 45%;
+			width: 100%;
+			text-align: center;
+		}
+
+		.documento-titulo span.titulo {
+			color: #fff;
+			background-color: #111;
+			padding: 18px;
+			font-size: 25px;
+			letter-spacing: 5px;
+			text-transform: uppercase;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="caixa1">
+		<div class="documento-titulo">
+			<span class="titulo">PASSEIO DE BALÕES</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>Paralax</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere bibendum congue. Integer commodo lorem condimentum, semper dui vitae, pretium nisl. Etiam facilisis erat non massa eleifend, eget vestibulum felis auctor. Praesent condimentum, lectus ut aliquam placerat, orci massa finibus sem, non ullamcorper dolor nunc sed dui. Nulla viverra euismod commodo. In hac habitasse platea dictumst. Nulla interdum pulvinar ligula, eget efficitur justo commodo consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sagittis dolor sed nulla cursus, quis vestibulum lacus fermentum. Vivamus finibus, urna sed vehicula commodo, metus orci fringilla lorem, non fringilla libero urna sed magna. Etiam eget interdum sem, in volutpat tellus.
+		</p>
+	</div>
+
+	<div class="caixa2">
+		<div class="documento-titulo">
+			<span class="titulo">PEGANDO A ESTRADA</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>Paralax</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere bibendum congue. Integer commodo lorem condimentum, semper dui vitae, pretium nisl. Etiam facilisis erat non massa eleifend, eget vestibulum felis auctor. Praesent condimentum, lectus ut aliquam placerat, orci massa finibus sem, non ullamcorper dolor nunc sed dui. Nulla viverra euismod commodo. In hac habitasse platea dictumst. Nulla interdum pulvinar ligula, eget efficitur justo commodo consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sagittis dolor sed nulla cursus, quis vestibulum lacus fermentum. Vivamus finibus, urna sed vehicula commodo, metus orci fringilla lorem, non fringilla libero urna sed magna. Etiam eget interdum sem, in volutpat tellus.
+		</p>
+	</div>
+
+	<div class="caixa3">
+		<div class="documento-titulo">
+			<span class="titulo">POR DO SOL</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>Paralax</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere bibendum congue. Integer commodo lorem condimentum, semper dui vitae, pretium nisl. Etiam facilisis erat non massa eleifend, eget vestibulum felis auctor. Praesent condimentum, lectus ut aliquam placerat, orci massa finibus sem, non ullamcorper dolor nunc sed dui. Nulla viverra euismod commodo. In hac habitasse platea dictumst. Nulla interdum pulvinar ligula, eget efficitur justo commodo consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sagittis dolor sed nulla cursus, quis vestibulum lacus fermentum. Vivamus finibus, urna sed vehicula commodo, metus orci fringilla lorem, non fringilla libero urna sed magna. Etiam eget interdum sem, in volutpat tellus.
+		</p>
+	</div>
+
+	<div class="caixa4">
+		<div class="documento-titulo">
+			<span class="titulo">MONTANHAS</span>
+		</div>
+	</div>
+
+
+</body>
+</html>
